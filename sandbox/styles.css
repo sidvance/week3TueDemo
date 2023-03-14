@@ -1,0 +1,37 @@
+p {
+    font-size: large;
+    color: deeppink;
+}
+
+.middle {
+    background-color: blueviolet;
+}
+
+.even {
+    width: 30%
+}
+
+#box-section {
+    height: 50vh;
+    width: 50w;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border: 3px solid orchid;
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    position: relative;
+    background-color: darkcyan;
+}
+
+#position-box {
+    z-index: 2;
+    background-color: darkmagenta;
+}
+
